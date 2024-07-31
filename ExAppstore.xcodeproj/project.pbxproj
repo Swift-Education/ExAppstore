@@ -9,19 +9,31 @@
 /* Begin PBXBuildFile section */
 		B519336E2C5A2EB9001B3D26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519336D2C5A2EB9001B3D26 /* AppDelegate.swift */; };
 		B51933702C5A2EB9001B3D26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519336F2C5A2EB9001B3D26 /* SceneDelegate.swift */; };
-		B51933722C5A2EB9001B3D26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51933712C5A2EB9001B3D26 /* ViewController.swift */; };
+		B51933722C5A2EB9001B3D26 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51933712C5A2EB9001B3D26 /* SearchViewController.swift */; };
 		B51933742C5A2EBA001B3D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51933732C5A2EBA001B3D26 /* Assets.xcassets */; };
 		B51933772C5A2EBA001B3D26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51933752C5A2EBA001B3D26 /* LaunchScreen.storyboard */; };
+		B51933812C5A30CB001B3D26 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51933802C5A30CB001B3D26 /* TabbarController.swift */; };
+		B51933832C5A397A001B3D26 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51933822C5A397A001B3D26 /* TodayViewController.swift */; };
+		B51933852C5A3984001B3D26 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51933842C5A3984001B3D26 /* GameViewController.swift */; };
+		B51933872C5A398D001B3D26 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51933862C5A398D001B3D26 /* AppViewController.swift */; };
+		B51933892C5A3998001B3D26 /* ArcadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51933882C5A3998001B3D26 /* ArcadeViewController.swift */; };
+		B519338B2C5A5C06001B3D26 /* BaseAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519338A2C5A5C06001B3D26 /* BaseAble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B519336A2C5A2EB9001B3D26 /* ExAppstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExAppstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B519336D2C5A2EB9001B3D26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B519336F2C5A2EB9001B3D26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B51933712C5A2EB9001B3D26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B51933712C5A2EB9001B3D26 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B51933732C5A2EBA001B3D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B51933762C5A2EBA001B3D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B51933782C5A2EBA001B3D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51933802C5A30CB001B3D26 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		B51933822C5A397A001B3D26 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		B51933842C5A3984001B3D26 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B51933862C5A398D001B3D26 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		B51933882C5A3998001B3D26 /* ArcadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeViewController.swift; sourceTree = "<group>"; };
+		B519338A2C5A5C06001B3D26 /* BaseAble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,60 @@
 		B519336C2C5A2EB9001B3D26 /* ExAppstore */ = {
 			isa = PBXGroup;
 			children = (
-				B519336D2C5A2EB9001B3D26 /* AppDelegate.swift */,
-				B519336F2C5A2EB9001B3D26 /* SceneDelegate.swift */,
-				B51933712C5A2EB9001B3D26 /* ViewController.swift */,
+				B519337E2C5A3075001B3D26 /* Application */,
+				B519337F2C5A3089001B3D26 /* Presentation */,
 				B51933732C5A2EBA001B3D26 /* Assets.xcassets */,
 				B51933752C5A2EBA001B3D26 /* LaunchScreen.storyboard */,
 				B51933782C5A2EBA001B3D26 /* Info.plist */,
 			);
 			path = ExAppstore;
+			sourceTree = "<group>";
+		};
+		B519337E2C5A3075001B3D26 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B519336D2C5A2EB9001B3D26 /* AppDelegate.swift */,
+				B519336F2C5A2EB9001B3D26 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B519337F2C5A3089001B3D26 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B51933802C5A30CB001B3D26 /* TabbarController.swift */,
+				B519338D2C5A5C26001B3D26 /* OtherTab */,
+				B519338E2C5A5C30001B3D26 /* SearchScene */,
+				B519338C2C5A5C16001B3D26 /* Utils */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B519338C2C5A5C16001B3D26 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B519338A2C5A5C06001B3D26 /* BaseAble.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B519338D2C5A5C26001B3D26 /* OtherTab */ = {
+			isa = PBXGroup;
+			children = (
+				B51933822C5A397A001B3D26 /* TodayViewController.swift */,
+				B51933842C5A3984001B3D26 /* GameViewController.swift */,
+				B51933862C5A398D001B3D26 /* AppViewController.swift */,
+				B51933882C5A3998001B3D26 /* ArcadeViewController.swift */,
+			);
+			path = OtherTab;
+			sourceTree = "<group>";
+		};
+		B519338E2C5A5C30001B3D26 /* SearchScene */ = {
+			isa = PBXGroup;
+			children = (
+				B51933712C5A2EB9001B3D26 /* SearchViewController.swift */,
+			);
+			path = SearchScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B51933722C5A2EB9001B3D26 /* ViewController.swift in Sources */,
+				B51933722C5A2EB9001B3D26 /* SearchViewController.swift in Sources */,
+				B51933812C5A30CB001B3D26 /* TabbarController.swift in Sources */,
+				B51933832C5A397A001B3D26 /* TodayViewController.swift in Sources */,
+				B519338B2C5A5C06001B3D26 /* BaseAble.swift in Sources */,
 				B519336E2C5A2EB9001B3D26 /* AppDelegate.swift in Sources */,
+				B51933892C5A3998001B3D26 /* ArcadeViewController.swift in Sources */,
+				B51933872C5A398D001B3D26 /* AppViewController.swift in Sources */,
+				B51933852C5A3984001B3D26 /* GameViewController.swift in Sources */,
 				B51933702C5A2EB9001B3D26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
